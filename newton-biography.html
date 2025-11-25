@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biography - Isaac Newton</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Isaac Newton - Biography</h1>
+    <p>A Life Dedicated to Discovery</p>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#newton">Isaac Newton</a></li>
+      <li><a href="index.html#hawking">Stephen Hawking</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <a href="index.html#newton" class="back-button">← Back to Newton's Profile</a>
+
+    <h2 class="section-title">The Chronology of Sir Isaac Newton</h2>
+
+    <div class="timeline">
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Woolsthorpe_Manor_-_geograph.org.uk_-_1566050.jpg/300px-Woolsthorpe_Manor_-_geograph.org.uk_-_1566050.jpg" alt="Woolsthorpe Manor" class="event-image">
+          <h3>1643: Birth at Woolsthorpe</h3>
+          <p>Born prematurely on Christmas Day in Woolsthorpe, Lincolnshire, England. His father died three months before his birth, leaving Newton fatherless from the start.</p>
+          <button class="detail-toggle" onclick="toggleDetail(this)">Read Detailed Analysis</button>
+          <div class="detailed-info">
+            <p><b>Deep Dive:</b> Newton's premature birth and fatherless childhood shaped his solitary nature. When his mother remarried when he was three, she left him in the care of his grandmother. This abandonment profoundly affected Newton, who remained emotionally distant throughout his life. Despite this, he showed early mechanical aptitude, building working models of windmills, water clocks, and sundials.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Trinity_College%2C_Cambridge_%28facade%29.JPG/300px-Trinity_College%2C_Cambridge_%28facade%29.JPG" alt="Trinity College Cambridge" class="event-image">
+          <h3>1661: Enters Cambridge University</h3>
+          <p>Enrolled at Trinity College, Cambridge as a subsizar (working student). Initially studied Aristotelian philosophy but soon discovered the new ideas of Descartes, Galileo, and Kepler.</p>
+          <button class="detail-toggle" onclick="toggleDetail(this)">Read Detailed Analysis</button>
+          <div class="detailed-info">
+            <p><b>Deep Dive:</b> Newton's notebooks from this period show him questioning everything. He filled pages with experiments and questions, including "What is light?" and "What is gravity?" His intellectual independence was already apparent—he refused to accept ideas simply because they were traditional.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tree_in_Trinity_College_courtyard.jpg/300px-Tree_in_Trinity_College_courtyard.jpg" alt="Apple Tree" class="event-image">
+          <h3>1665-1666: Annus Mirabilis (Year of Wonders)</h3>
+          <p>When the Great Plague closed Cambridge, Newton returned to Woolsthorpe. In just 18 months, he developed calculus, discovered the law of universal gravitation, and performed groundbreaking experiments in optics.</p>
+          <button class="detail-toggle" onclick="toggleDetail(this)">Read Detailed Analysis</button>
+          <div class="detailed-info">
+            <p><b>Deep Dive:</b> This is arguably the most productive period in scientific history. Working alone at his family farm, Newton laid the foundations for his three greatest achievements. The famous apple incident likely occurred during this time—observing a falling apple led him to question why objects always fall straight down, eventually leading to universal gravitation. He later recalled: "In those days I was in the prime of my age for invention and minded mathematics and philosophy more than at any time since."</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NewtonTelescope.svg/300px-NewtonTelescope.svg.png" alt="Newton's Telescope" class="event-image">
+          <h3>1669: Becomes Lucasian Professor</h3>
+          <p>At just 26 years old, Newton was appointed Lucasian Professor of Mathematics at Cambridge, one of the most prestigious academic positions in England.</p>
+          <button class="detail-toggle" onclick="toggleDetail(this)">Read Detailed Analysis</button>
+          <div class="detailed-info">
+            <p><b>Deep Dive:</b> Newton succeeded his mentor Isaac Barrow in this role. His lectures were often poorly attended—his ideas were too advanced for most students. He used this time to continue his research, building the first practical reflecting telescope in 1668, which brought him to the attention of the Royal Society.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/NewtonsPrincipia.jpg/300px-NewtonsPrincipia.jpg" alt="Principia Mathematica" class="event-image">
+          <h3>1687: Publishes Principia Mathematica</h3>
+          <p>Published his masterwork "Philosophiæ Naturalis Principia Mathematica" (Mathematical Principles of Natural Philosophy), detailing the three laws of motion and the law of universal gravitation.</p>
+          <button class="detail-toggle" onclick="toggleDetail(this)">Read Detailed Analysis</button>
+          <div class="detailed-info">
+            <p><b>Deep Dive:</b> The Principia was funded by astronomer Edmond Halley, who convinced a reluctant Newton to publish. Written in Latin with complex geometric proofs, it was deliberately difficult—Newton wanted to avoid criticism from "mathematical smatterers." The book established a mathematical framework that explained everything from falling apples to planetary orbits. It remained the foundation of physics for over 200 years until Einstein's relativity.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Royal_Mint_Court.jpg/300px-Royal_Mint_Court.jpg" alt="Royal Mint" class="event-image">
+          <h3>1696: Warden of the Royal Mint</h3>
+          <p>Appointed Warden (later Master) of the Royal Mint. Newton took the job seriously, personally investigating counterfeiters and reforming England's currency.</p>
+          <button class="detail-toggle" onclick="toggleDetail(this)">Read Detailed Analysis</button>
+          <div class="detailed-info">
+            <p><b>Deep Dive:</b> Many expected this to be a ceremonial position, but Newton threw himself into the work with characteristic intensity. He personally interrogated suspects, gathered evidence, and prosecuted counterfeiters, sending several to the gallows. He successfully recoined England's currency, removing debased coins and restoring confidence in the monetary system. He earned a substantial income from this position.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/300px-GodfreyKneller-IsaacNewton-1689.jpg" alt="Newton Portrait" class="event-image">
+          <h3>1703: President of the Royal Society</h3>
+          <p>Elected President of the Royal Society, the world's oldest scientific academy. He was re-elected annually until his death, serving for 24 years.</p>
+          <button class="detail-toggle" onclick="toggleDetail(this)">Read Detailed Analysis</button>
+          <div class="detailed-info">
+            <p><b>Deep Dive:</b> As President, Newton wielded enormous influence over British science. He was known for being authoritarian, brooking no opposition. His long-running dispute with Leibniz over the invention of calculus became bitter during this period, dividing European mathematics into rival camps for decades.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Knighted.jpg/300px-Knighted.jpg" alt="Knighthood" class="event-image">
+          <h3>1705: Knighted by Queen Anne</h3>
+          <p>Became Sir Isaac Newton, the first scientist to be knighted for his scientific achievements (though technically the honor was for his political service).</p>
+          <button class="detail-toggle" onclick="toggleDetail(this)">Read Detailed Analysis</button>
+          <div class="detailed-info">
+            <p><b>Deep Dive:</b> Newton was knighted at Trinity College, Cambridge. While the honor was officially for his work at the Royal Mint and his political support, it recognized his status as Britain's greatest scientist. He never married and left no direct heirs.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Westminster_Abbey_-_North_transept.jpg/300px-Westminster_Abbey_-_North_transept.jpg" alt="Westminster Abbey" class="event-image">
+          <h3>1727: Death and Legacy</h3>
+          <p>Died in London on March 20 at age 84. He was buried in Westminster Abbey with great ceremony—the first scientist to receive such an honor.</p>
+          <button class="detail-toggle" onclick="toggleDetail(this)">Read Detailed Analysis</button>
+          <div class="detailed-info">
+            <p><b>Deep Dive:</b> Newton's funeral was attended by nobles, government officials, and scientists. His pallbearers included two dukes and three earls. His monument in Westminster Abbey bears the inscription: "Let Mortals rejoice That there existed such and so great an Ornament to the Human Race." Voltaire, who attended the funeral, was impressed that England honored a scientist as it would a king. Newton's famous quote reflects his humility: "If I have seen further it is by standing on the shoulders of Giants."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Timeline Architects - A biographical project celebrating scientific excellence.</p>
+  </footer>
+
+  <script>
+    function toggleDetail(button) {
+      const detailSection = button.nextElementSibling;
+      detailSection.classList.toggle('show');
+      if (detailSection.classList.contains('show')) {
+        button.textContent = 'Hide Analysis';
+      } else {
+        button.textContent = 'Read Detailed Analysis';
+      }
+    }
+  </script>
+</body>
+</html>
